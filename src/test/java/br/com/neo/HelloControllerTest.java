@@ -22,7 +22,7 @@ class HelloControllerTest {
     void testHelloSuccess() {
         String result = controller.hello("test");
         assertNotNull(result);
-        assertEquals("Hello test", result);
+        assertEquals("Hi test", result);
     }
     
 }
